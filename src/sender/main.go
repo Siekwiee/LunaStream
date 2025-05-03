@@ -1,8 +1,8 @@
-package sender
+package main
 
 import (
 	"fmt"
-	"github.com/siekwiee/"
+	"github.com/siekwiee/LunaStream/src/sender"
 )
 
 func main() {
