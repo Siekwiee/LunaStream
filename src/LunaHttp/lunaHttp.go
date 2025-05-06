@@ -58,6 +58,6 @@ func StreamHandler(w http.ResponseWriter, r *http.Request) {
         message := fmt.Sprintf("data: test%d\n\n", counter)
         fmt.Fprint(w, message)
         flusher.Flush()
-        time.Sleep(33 * time.Millisecond)
+        time.Sleep(25 * time.Millisecond)
     }
 }
